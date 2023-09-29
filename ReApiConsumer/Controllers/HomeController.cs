@@ -76,7 +76,7 @@ namespace ReApiConsumer.Controllers
             string url = "http://localhost:8888";
             List<Catigory> catigories = new List<Catigory>();
 
-
+            // get response from web api
             using (var client = new HttpClient())
             {
                 //Passing service base url
