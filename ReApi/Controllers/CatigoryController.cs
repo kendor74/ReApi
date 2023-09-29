@@ -15,7 +15,7 @@ namespace ReApi.Controllers
         [HttpGet("GetCatigories")]
         public async Task<ActionResult> GetCtigories()
         {
-            return Ok(await _catigory.GetAll());
+            return Ok(await _catigory.GetAll());//400 , 200 , 300
         }
 
         //[HttpGet("{id}")]
