@@ -49,7 +49,7 @@ namespace ReApi.Migrations
 
                     b.HasIndex("CatigoryId");
 
-                    b.ToTable("Meals");
+                    b.ToTable("Meals", (string)null);
                 });
 
             modelBuilder.Entity("ReApi.Models.FoodCatigory.Catigory", b =>
@@ -66,7 +66,7 @@ namespace ReApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Catigorys");
+                    b.ToTable("Catigorys", (string)null);
                 });
 
             modelBuilder.Entity("ReApi.Models.Message.Messages", b =>
@@ -98,7 +98,7 @@ namespace ReApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Messagess");
+                    b.ToTable("Messagess", (string)null);
                 });
 
             modelBuilder.Entity("ReApi.Models.Food.Meal", b =>
